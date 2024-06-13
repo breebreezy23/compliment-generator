@@ -20,16 +20,20 @@ body {
 
 h1 {
     color: #ff69b4;
+    font-family: 'raleway';
 }
 
 #compliment {
     font-size: 1.5em;
     margin: 20px 0;
+    font-family: "indie flower";
+    font-weight: bold;
 }
 
 #generate-btn {
     padding: 10px 20px;
     font-size: 1em;
+    font-family: "raleway";
     color: #fff;
     background-color: #ff69b4;
     border: none;
@@ -70,4 +74,12 @@ h1 {
     background-image: -o-linear-gradient(top, #ec3cfc, #9c34d9);
     background-image: linear-gradient(to bottom, #ec3cfc, #9c34d9);
     text-decoration: none;
+}
+
+a {
+    padding: 10px 20px;
+}
+
+.button-container {
+    padding-top: 20px;
 }
